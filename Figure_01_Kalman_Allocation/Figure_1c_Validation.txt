@@ -1,0 +1,21 @@
+FIGURE 1(c) — NUMERICAL VALIDATION
+----------------------------------
+Coefficients k                 : 20000
+Floor threshold theta_F        : 0.206
+Prediction fixed-point iters   : 28
+Prediction fixed-point error   : 5.244e-12
+Common refinement budget P    : 1649.716411924705
+Proposed total energy          : 1649.716411924684
+Floor/no-SI total energy       : 1649.716411924705
+SoftCast total energy          : 1649.716411924704
+Proposed active coefficients   : 3529
+Floor/no-SI active coefficients: 2608
+SoftCast active coefficients   : 639
+SoftCast asymptotic range n    : 111
+Finite-range fitted slope      : -0.446034 (diagnostic only)
+Equal total energy             : PASSED
+Proposition 4 distortion rule  : PASSED
+Gain-energy identity           : PASSED
+Floor/no-side-information case : PASSED
+SoftCast special case          : PASSED
+STATUS: ALL ASSERTIONS PASSED

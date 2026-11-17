@@ -1,0 +1,66 @@
+{
+  "source_data": {
+    "table_v_rows": 8,
+    "table_vi_rows": 4,
+    "table_v_exhaustive_grid_optimum_db": 10.5,
+    "table_v_max_teq_mbps": 9.781,
+    "eq24_crossing_db_pchip_rhs": 9.104463206844645,
+    "eq24_crossing_lhs_rhs_value": 12.076332540478774,
+    "stationary_throughput_gap_pct_reported": 0.6,
+    "stationary_distortion_gap_pct_reported": 0.7
+  },
+  "controller_local_linearization": {
+    "fixed_point_db": 9.41,
+    "reported_slope_approx": -0.52,
+    "interpretation": "Local affine approximation using the manuscript-reported slope; not a recomputation of the full nonlinear Gamma map.",
+    "trajectories_db": {
+      "tau=1, start=6 dB": [
+        6.0,
+        11.1832,
+        8.487936,
+        9.88947328,
+        9.1606738944,
+        9.539649574912,
+        9.34258222104576,
+        9.445057245056205
+      ],
+      "tau=1, start=14 dB": [
+        14.0,
+        7.0232,
+        10.651136000000001,
+        8.76460928,
+        9.7456031744,
+        9.235486349312,
+        9.50074709835776,
+        9.362811508853964
+      ],
+      "tau=0.66, start=6 dB": [
+        6.0,
+        9.420912,
+        9.4099650816,
+        9.41000011173888,
+        9.409999999642435,
+        9.410000000001144,
+        9.409999999999997,
+        9.41
+      ],
+      "tau=0.66, start=14 dB": [
+        14.0,
+        9.395312,
+        9.4100470016,
+        9.40999984959488,
+        9.410000000481297,
+        9.40999999999846,
+        9.410000000000005,
+        9.41
+      ]
+    }
+  },
+  "mismatch": {
+    "all_random_and_corner_regrets_below_bound": true,
+    "bound_matches_1_plus_delta_squared": true,
+    "random_instances_per_delta": 300,
+    "components_per_instance": 60
+  },
+  "scene_cut_inset": "Omitted: manuscript gives aggregate factors but not a complete reproducible time-series dataset; plan says not to draw a time series unless explicitly simulated."
+}

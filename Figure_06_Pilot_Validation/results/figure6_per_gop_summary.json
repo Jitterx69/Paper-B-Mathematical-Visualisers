@@ -1,0 +1,79 @@
+{
+  "source_video": "Big Buck Bunny, precompressed 1280x720 H.264; processed to 640x352 yuv420p",
+  "channel": "AWGN",
+  "noise_realizations": 1,
+  "rng_seed_per_snr": 0,
+  "snr_db": [
+    6,
+    8,
+    10,
+    12
+  ],
+  "gop_count_per_snr": 16,
+  "total_per_gop_pairs": 64,
+  "coefficient_count_per_gop": 2703360,
+  "n_eff_complex_uses": 226112.93080865894,
+  "bandwidth_ratio_2n_eff_over_k": 0.16728288560062954,
+  "summary_by_snr": {
+    "6": {
+      "measured_mean_psnr_db": 38.42687804864856,
+      "measured_min_psnr_db": 34.78444671392052,
+      "model_mean_psnr_db": 38.77710586093863,
+      "mean_residual_db": 0.3502278122900755,
+      "residual_min_db": 0.0010337099052364351,
+      "residual_max_db": 1.350565401984916,
+      "fraction_positive_residuals": 1.0,
+      "baseline_regression_checks": {
+        "measured_mean_abs_error": 0.0,
+        "measured_min_abs_error": 0.0,
+        "model_mean_abs_error": 0.0
+      },
+      "gop_count": 16
+    },
+    "8": {
+      "measured_mean_psnr_db": 39.522141402260715,
+      "measured_min_psnr_db": 35.60717777626107,
+      "model_mean_psnr_db": 39.877912163289785,
+      "mean_residual_db": 0.35577076102907457,
+      "residual_min_db": -0.0004840028868429158,
+      "residual_max_db": 1.3268314133834025,
+      "fraction_positive_residuals": 0.9375,
+      "baseline_regression_checks": {
+        "measured_mean_abs_error": 0.0,
+        "measured_min_abs_error": 0.0,
+        "model_mean_abs_error": 0.0
+      },
+      "gop_count": 16
+    },
+    "10": {
+      "measured_mean_psnr_db": 40.554995731713745,
+      "measured_min_psnr_db": 36.269701894458436,
+      "model_mean_psnr_db": 40.81332158295635,
+      "mean_residual_db": 0.258325851242609,
+      "residual_min_db": 0.007551492224393996,
+      "residual_max_db": 0.9451359530668171,
+      "fraction_positive_residuals": 1.0,
+      "baseline_regression_checks": {
+        "measured_mean_abs_error": 0.0,
+        "measured_min_abs_error": 0.0,
+        "model_mean_abs_error": 0.0
+      },
+      "gop_count": 16
+    },
+    "12": {
+      "measured_mean_psnr_db": 41.41522454870237,
+      "measured_min_psnr_db": 36.8379538425628,
+      "model_mean_psnr_db": 41.60122226169887,
+      "mean_residual_db": 0.18599771299650092,
+      "residual_min_db": -0.002779771136054876,
+      "residual_max_db": 0.6914839341470653,
+      "fraction_positive_residuals": 0.9375,
+      "baseline_regression_checks": {
+        "measured_mean_abs_error": 0.0,
+        "measured_min_abs_error": 0.0,
+        "model_mean_abs_error": 0.0
+      },
+      "gop_count": 16
+    }
+  }
+}

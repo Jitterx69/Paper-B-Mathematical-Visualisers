@@ -1,0 +1,4 @@
+scheme,dual_multiplier_xi,total_refinement_energy,distortion_sum,active_components,first_active_index,last_active_index
+Proposed: floor + prediction,0.03174243878263247,1649.7164119246843,309.0935715974779,3529,1,3529
+"Floor, no side information",0.057901127995832274,1649.7164119247047,378.7251084310064,2608,1,2608
+SoftCast: no floor / no side information,0.9199723181436774,1649.7164119247043,2692.096196835577,639,1,639
